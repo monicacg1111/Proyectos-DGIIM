@@ -20,4 +20,4 @@ Para resolver el problema, antes de nada apliqué de forma exhaustiva varias té
 
 En cuanto a los resultados finales, el algoritmo que mejor resultado dio fue Catboost, dejándome en una posición bastante buena en el Ranking para ser mi primera competición. Al final resultó ser una experiencia muy enriquecedora e innovadora. 
 
-![leaderboard2](C:\Users\monic\Documents\Proyectos-DGIIM\Clasificación Kaggle\img\leaderboard2.png)
+![leaderboard2](.\Clasificación_Kaggle\img\leaderboard2.png)
