@@ -19,5 +19,5 @@ Proyecto realizado en la asignatura *Inteligencia de Negocio* que ha consistido 
 Para resolver el problema, antes de nada apliqué de forma exhaustiva varias técnicas de **preprocesamiento**, como eliminación de outliers, selección de las características más relevantes, imputación de valores perdidos y etiquetado. Posteriormente apliqué varios **algoritmos de aprendizaje supervisado**, entre ellos, métodos basados en Árboles de decisión, Boosting y Ensemble. Además, realicé un **tuning automático** para ajustar los parámetros del método elegido y así conseguir la mejor eficacia posible. 
 
 En cuanto a los resultados finales, el algoritmo que mejor resultado dio fue Catboost, dejándome en una posición bastante buena en el Ranking para ser mi primera competición. Al final resultó ser una experiencia muy enriquecedora e innovadora. 
+![leaderboard2](https://github.com/monicacg1111/Proyectos-DGIIM/assets/55974676/ed5bd060-5df3-4d80-98ad-a7756888b2a8)
 
-![leaderboard2](.\Clasificación_Kaggle\img\leaderboard2.png)
