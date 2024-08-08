@@ -1,23 +1,40 @@
-# Proyectos-DGIIM
-Repositorio donde iré subiendo algunos proyectos que he realizado durante la carrera. Se trata de varios proyectos sobretodo relacionados con el Análisis de Datos.
+# DGIIM Projects
+
+Repository where I will be uploading some projects I have completed during my bachelor's. These projects are related to Machine Learning and Business Intelligence.
+
+## Lazy Bayesian Rule Learning
+
+This project focuses on developing a Lazy Bayesian Rule classifier to address **attribute interdependence** in Naive-Bayes models. This involves incorporating Bayesian rules that are constructed locally upon receiving test instances.
+
+The project involved implementing the **LBR algorithm** (*Lazy Bayesian Rules*) in Python, as studied in this article: [https://link.springer.com/article/10.1023/A:1007613203719](https://link.springer.com/article/10.1023/A:1007613203719)
+
+This approach combines two techniques: NBTREE and LAZYDT, aiming to avoid the disadvantages of both and enhance their strengths.
+
+To evaluate the performance of the implemented algorithm, several datasets were used, including Iris and Wine. Additionally, LBR's metrics were compared with those of other algorithms, such as Naive Bayes and Random Forest. The results were more than satisfactory, with **metrics above 85%**.
+
+This has been a very interesting project, as it allowed us to study an algorithm proposed by other researchers and compare its effectiveness with conventional Machine Learning algorithms.
+
+
+
+## House Price Regression (Kaggle)
+
+This project was carried out as part of the *Business Intelligence* course and involved participating in a [Kaggle competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/). The objective of the competition was to **predict the price of a house** given a series of features, such as size, type of street, number of rooms, etc. Given a training dataset, the task was to train a **regressor** capable of accurately predicting the prices of houses in a new test dataset.
+
+To tackle the problem, I first applied various **preprocessing** techniques extensively, including outlier removal, feature selection, missing value imputation, and encoding. Then, I used several **supervised learning algorithms**, including Decision Trees, Boosting, and Ensemble methods. Additionally, I performed **automatic tuning** to optimize the parameters of the chosen method to achieve the best possible accuracy.
+
+As for the final results, the algorithm that performed best was Catboost, placing me in a relatively good position on the leaderboard for my first competition. Overall, it was a highly enriching and innovative experience.
+![leaderboard2](https://github.com/monicacg1111/Proyectos-DGIIM/assets/55974676/ed5bd060-5df3-4d80-98ad-a7756888b2a8)
+
+
 
 ## Clustering CIS
 
-Proyecto realizado en la asignatura *Inteligencia de Negocio* para extraer conclusiones sobre la opinión pública respecto al conflicto bélico entre Israel y Palestina. Se trata de una encuesta realizada por el CIS en noviembre de 2023, donde recoge la intención de voto de la
-población española y su opinión respecto a varios asuntos de actualidad (conflicto de Israel y Palestina, crisis de inflación, cambio climático, migración...). Se puede consultar [aquí](https://elpais.com/espana/2023-11-06/consulte-todos-los-datos-internos-de-la-encuesta-de-el-pais-cuestionarios-cruces-y-respuestas-individuales.html).
+This project was completed for the *Business Intelligence* course to draw conclusions about public opinion regarding the conflict between Israel and Palestine. It is based on a survey conducted by the **CIS** (Spanish Sociological Research Center) in November 2023, which collected the voting intentions of the Spanish population and their opinions on various current issues (Israel-Palestine conflict, inflation crisis, climate change, migration, etc.). The survey can be consulted [here](https://elpais.com/espana/2023-11-06/consulte-todos-los-datos-internos-de-la-encuesta-de-el-pais-cuestionarios-cruces-y-respuestas-individuales.html).
 
-Aparte de aplicar varios **algoritmos de Clustering** (tales como K-means, BIRCH, Mean Shift o DBSCAN), he llevado a cabo un preprocesamiento mediante técnicas de normalización e imputación.
+In addition to applying several **clustering algorithms** (such as K-means, BIRCH, Mean Shift, and DBSCAN), I performed preprocessing using normalization and imputation techniques.
 
-El proyecto ha consistido en establecer varios casos de estudios donde he tomado en cada uno varias características (respuestas a la escuesta) y he estudiado la relación entre ellas. Entre estos casos de estudio, he estudiado la relación entre la **ideología** del encuestado, su **intención de voto** y su **opinión** sobre distintas acciones cometidas tanto por Israel como por Hamás. Para interpretar los resultados de los algoritmos me he servido de varias herramientas de **visualización**, como Heatmaps (mapas de calor), Scatter Matrix, MDS, etc.
-
+The project involved establishing several case studies where I selected various features (survey responses) and examined the relationships between them. Among these case studies, I analyzed the relationship between people's **ideology**, their **voting intentions**, and their **opinions** on various actions taken by both Israel and Hamas. To interpret the algorithm results, I used various **visualization** tools, including Heatmaps, Scatter Matrix, MDS, etc.
 
 
-## Clasificación Kaggle
 
-Proyecto realizado en la asignatura *Inteligencia de Negocio* que ha consistido en participar en una [Competición de Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/). El objetivo de la competición fue el de **predecir el precio de una casa** dada una serie de características, tales como el tamaño, el tipo de calle, el número de habitaciones, etc. Dado un dataset de entrenamiento, había que entrenar un **clasificador** que fuera capaz de predecir con una precisión alta el precio de las casas dadas en un nuevo dataset de prueba.
-
-Para resolver el problema, antes de nada apliqué de forma exhaustiva varias técnicas de **preprocesamiento**, como eliminación de outliers, selección de las características más relevantes, imputación de valores perdidos y etiquetado. Posteriormente apliqué varios **algoritmos de aprendizaje supervisado**, entre ellos, métodos basados en Árboles de decisión, Boosting y Ensemble. Además, realicé un **tuning automático** para ajustar los parámetros del método elegido y así conseguir la mejor eficacia posible. 
-
-En cuanto a los resultados finales, el algoritmo que mejor resultado dio fue Catboost, dejándome en una posición bastante buena en el Ranking para ser mi primera competición. Al final resultó ser una experiencia muy enriquecedora e innovadora. 
-![leaderboard2](https://github.com/monicacg1111/Proyectos-DGIIM/assets/55974676/ed5bd060-5df3-4d80-98ad-a7756888b2a8)
 
